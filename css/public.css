@@ -1,0 +1,300 @@
+.col-xs-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.col-xs-1-5 {
+  width: 20%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .col-sm-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+
+/***
+
+====================================================================
+	首页
+====================================================================
+
+***/
+#home .container-fluid {
+  background: #ededed;
+  padding: 25px 50px 25px 0;
+}
+
+#industry {
+  height: 40px;
+  width: 100%;
+  border-radius: 20px;
+  background: #ffffff;
+  padding-left: 15px;
+  color: #999;
+}
+
+.index .about-block div:nth-child(1) span {
+  background: #ededed;
+  padding: 8px 20px;
+}
+
+.index .about-block .col-sm-12 {
+  margin-top: 20px;
+  background: rgba(215, 215, 215, 1);
+  padding: 35px 25px;
+}
+
+.index .about-block .col-sm-12 .row .col-sm-4 {
+  line-height: 40px;
+}
+
+.index .about-block .col-sm-12 .row .col-sm-6 {
+  line-height: 40px;
+}
+
+#home .auto-container:nth-child(1) {
+  margin-top: 40px;
+}
+
+#home .annoyance {
+  padding: 25px 0;
+  background: rgba(242, 242, 242, 1);
+}
+
+#home .annoyance p {
+  margin: 15px 0 0 0 !important;
+}
+
+#home .sec-title {
+  margin-bottom: 50px;
+!important;
+}
+
+#home .services-section {
+  padding: 25px 0 20px
+}
+
+#home .caseTrial {
+  background: rgba(215, 215, 215, 1);
+}
+
+#home .caseTrial .trial {
+  line-height: 40px;
+  padding: 25px 0;
+}
+
+.price-box .inner-box .in-touch {
+  padding: 4px 37px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#home .customers .col-sm-2 img {
+  box-shadow: #b3b1b1 0 0 10px;
+  border-radius: 5px;
+  transition: transform .5s
+}
+
+#home .customers .col-sm-2 img:hover {
+  transform: scale(1.05, 1.05);
+}
+
+#home .customers .row {
+  margin-bottom: 25px;
+}
+
+#home .customers .row:last-child {
+  margin-bottom: 0;
+}
+
+#home .ServiceFlow {
+  background: rgba(242, 242, 242, 1);
+  padding: 25px 0;
+}
+
+/***
+
+====================================================================
+	产品中心
+====================================================================
+
+***/
+
+#about-us .Product .col-sm-4 h4 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+#about-us .auto-container {
+  margin-bottom: 25px;
+}
+
+#about-us .sec-title {
+  margin-bottom: 50px;
+}
+
+#about-us .TryNow {
+  padding: 15px 30px;
+  outline: none;
+  color: #fff;
+  background: #008ffe;
+}
+
+.about-section {
+  padding: 110px 0 0;
+}
+
+/***
+
+====================================================================
+	服务
+====================================================================
+
+***/
+#services .service .service-list {
+  background: rgba(215, 215, 215, 1);
+  width: 60%;
+  padding: 15px 0;
+  margin: 25px auto
+}
+
+#services .service .service-list:first-child {
+  margin: 0 auto
+}
+
+#services .service .service-list h5 {
+  color: #333;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.services-section {
+  /*padding: 50px 0 30px;*/
+}
+
+#services .sec-title {
+  margin-bottom: 30px;
+}
+
+#services .Housekeeper h4 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+#services .Housekeeper p {
+  width: 70%;
+  margin: 25px auto;
+}
+
+#services .container-fluid {
+  background-color: #f2f2f2;
+  padding: 50px 0 50px 50px;
+  position: relative;
+}
+
+#services .HousekeeperList{
+  margin-bottom: 30px;
+}
+
+#services .HousekeeperList h4{
+  color: #000;
+}
+#services .HousekeeperList p{
+  color: #000;
+  font-size: 12px;
+}
+
+#services .HousekeeperList .col-sm-12 .col-sm-4 div{
+  background: rgba(215, 215, 215, 1);
+  padding: 25px;
+}
+
+
+#services .HousekeeperList .col-sm-12 .col-sm-4 div div{
+  background: #ffff;
+  width: 80%;
+  margin: 0 auto;
+  padding: 25px;
+  margin-top: 15px;
+}
+
+#services .TryNow {
+  margin-top: 50px;
+  padding: 15px 30px;
+  outline: none;
+  color: #fff;
+  background: #008ffe;
+}
+
+/***
+
+====================================================================
+	案例
+====================================================================
+
+***/
+
+#works .Peer{
+  border-bottom: 1px solid #ededed;
+}
+#works .TryNow {
+  margin-top: 50px;
+  padding: 15px 30px;
+  outline: none;
+  color: #fff;
+  background: #008ffe;
+}
+
+/***
+
+====================================================================
+	联系我们
+====================================================================
+
+***/
+
+#contact-us .Contact h4{
+  color: #666;
+  font-weight: bold;
+}
+
+
+#contact-us .Contact .col-sm-4:nth-child(3) p{
+  color: #666;
+}
+
+#contact-us .contact-info {
+  border-bottom: 1px solid #999;
+}
+#contact-us .copyright {
+  padding: 6px;
+  background: rgba(215, 215, 215, 1);
+}
+
+.contact-section{
+  padding-top: 20px;
+}
